@@ -21,7 +21,17 @@ body {
   font-size: 62.5%;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
-  background-color: #030207;
   color: white;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
