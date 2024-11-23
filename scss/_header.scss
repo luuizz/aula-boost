@@ -1,0 +1,37 @@
+header {
+  padding: 4rem 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2025;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 3.2rem;
+      .divider {
+        background-color: var(--green);
+        width: 2px;
+        height: 1.6rem;
+      }
+      span {
+        color: var(--white);
+        font-size: 1.8rem;
+        font-weight: 700;
+        font-family: var(--font-title);
+        text-transform: uppercase;
+        line-height: 110%;
+        display: block;
+        letter-spacing: 0.072rem;
+      }
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 2.4rem;
+    }
+  }
+}

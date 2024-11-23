@@ -58,7 +58,7 @@ gulp.task("alljs", gulpJs);
 // Função para concatenar arquivos JS externos
 function pluginsJs() {
   return gulp
-    .src(["./js/lib/aos.min.js", "./js/lib/swiper.min.js"])
+    .src(["./js/lib/gsap.min.js"])
     .pipe(concat("plugins.js"))
     .pipe(gulp.dest("js/"))
     .pipe(browserSync.stream());
@@ -72,6 +72,7 @@ function browser() {
     server: {
       baseDir: "./",
     },
+    open: "local",
   });
 }
 
